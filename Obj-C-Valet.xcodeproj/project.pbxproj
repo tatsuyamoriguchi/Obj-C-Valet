@@ -14,6 +14,7 @@
 		8C1CD060274C5578000CCBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CD05F274C5578000CCBCA /* Assets.xcassets */; };
 		8C1CD063274C5578000CCBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1CD061274C5578000CCBCA /* LaunchScreen.storyboard */; };
 		8C1CD066274C5578000CCBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CD065274C5578000CCBCA /* main.m */; };
+		8C1CD075274C7ABB000CCBCA /* Valet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1CD074274C7ABB000CCBCA /* Valet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		8C1CD062274C5578000CCBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C1CD064274C5578000CCBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C1CD065274C5578000CCBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C1CD073274C7ABB000CCBCA /* Valet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Valet.h; sourceTree = "<group>"; };
+		8C1CD074274C7ABB000CCBCA /* Valet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Valet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				8C1CD061274C5578000CCBCA /* LaunchScreen.storyboard */,
 				8C1CD064274C5578000CCBCA /* Info.plist */,
 				8C1CD065274C5578000CCBCA /* main.m */,
+				8C1CD073274C7ABB000CCBCA /* Valet.h */,
+				8C1CD074274C7ABB000CCBCA /* Valet.m */,
 			);
 			path = "Obj-C-Valet";
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1CD05B274C5570000CCBCA /* ViewController.m in Sources */,
+				8C1CD075274C7ABB000CCBCA /* Valet.m in Sources */,
 				8C1CD055274C5570000CCBCA /* AppDelegate.m in Sources */,
 				8C1CD066274C5578000CCBCA /* main.m in Sources */,
 				8C1CD058274C5570000CCBCA /* SceneDelegate.m in Sources */,
